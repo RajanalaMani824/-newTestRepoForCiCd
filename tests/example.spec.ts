@@ -23,3 +23,11 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
+
+// cd my-app
+// git init
+// git add .
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/username/my-app.git
+// git push -u origin main
